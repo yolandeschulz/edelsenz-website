@@ -409,6 +409,314 @@ content:
     - name: tagline
       label: Tagline
       type: string
+- name: divisions
+  label: Division pages
+  type: file
+  path: _data/divisions.yml
+  fields:
+  - name: gls
+    label: Global & Local Sourcing
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+  - name: hss
+    label: Herbs, Spices & Seasonings
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+    - name: m1_k
+      label: Example 1 label
+      type: string
+    - name: m1_h
+      label: Example 1 title
+      type: string
+    - name: m1_p
+      label: Example 1 text
+      type: string
+    - name: m2_k
+      label: Example 2 label
+      type: string
+    - name: m2_h
+      label: Example 2 title
+      type: string
+    - name: m2_p
+      label: Example 2 text
+      type: string
+    - name: m3_k
+      label: Example 3 label
+      type: string
+    - name: m3_h
+      label: Example 3 title
+      type: string
+    - name: m3_p
+      label: Example 3 text
+      type: string
+  - name: mb
+    label: Milling & Baking
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+    - name: m1_k
+      label: Example 1 label
+      type: string
+    - name: m1_h
+      label: Example 1 title
+      type: string
+    - name: m1_p
+      label: Example 1 text
+      type: string
+    - name: m2_k
+      label: Example 2 label
+      type: string
+    - name: m2_h
+      label: Example 2 title
+      type: string
+    - name: m2_p
+      label: Example 2 text
+      type: string
+    - name: m3_k
+      label: Example 3 label
+      type: string
+    - name: m3_h
+      label: Example 3 title
+      type: string
+    - name: m3_p
+      label: Example 3 text
+      type: string
+  - name: pc
+    label: Personal Care
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+    - name: m1_k
+      label: Example 1 label
+      type: string
+    - name: m1_h
+      label: Example 1 title
+      type: string
+    - name: m1_p
+      label: Example 1 text
+      type: string
+    - name: m2_k
+      label: Example 2 label
+      type: string
+    - name: m2_h
+      label: Example 2 title
+      type: string
+    - name: m2_p
+      label: Example 2 text
+      type: string
+    - name: m3_k
+      label: Example 3 label
+      type: string
+    - name: m3_h
+      label: Example 3 title
+      type: string
+    - name: m3_p
+      label: Example 3 text
+      type: string
+  - name: ph
+    label: Pantry & Home
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+    - name: m1_k
+      label: Example 1 label
+      type: string
+    - name: m1_h
+      label: Example 1 title
+      type: string
+    - name: m1_p
+      label: Example 1 text
+      type: string
+    - name: m2_k
+      label: Example 2 label
+      type: string
+    - name: m2_h
+      label: Example 2 title
+      type: string
+    - name: m2_p
+      label: Example 2 text
+      type: string
+    - name: m3_k
+      label: Example 3 label
+      type: string
+    - name: m3_h
+      label: Example 3 title
+      type: string
+    - name: m3_p
+      label: Example 3 text
+      type: string
+  - name: fb
+    label: Food & Beverage
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow (small label)
+      type: string
+    - name: h1
+      label: Page title
+      type: string
+    - name: tag
+      label: Tagline
+      type: text
+    - name: lede
+      label: Intro paragraph
+      type: text
+    - name: serve_h2
+      label: ‘Who we serve’ heading
+      type: string
+    - name: serve_p
+      label: ‘Who we serve’ text
+      type: text
+    - name: value_h2
+      label: ‘Why it works’ heading
+      type: string
+    - name: value_p
+      label: ‘Why it works’ text
+      type: text
+    - name: m1_k
+      label: Example 1 label
+      type: string
+    - name: m1_h
+      label: Example 1 title
+      type: string
+    - name: m1_p
+      label: Example 1 text
+      type: text
+    - name: m2_k
+      label: Example 2 label
+      type: string
+    - name: m2_h
+      label: Example 2 title
+      type: string
+    - name: m2_p
+      label: Example 2 text
+      type: string
+    - name: m3_k
+      label: Example 3 label
+      type: string
+    - name: m3_h
+      label: Example 3 title
+      type: string
+    - name: m3_p
+      label: Example 3 text
+      type: string
 - name: news
   label: News / newsletter issues
   type: collection
