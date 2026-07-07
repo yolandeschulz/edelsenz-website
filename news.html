@@ -1,0 +1,62 @@
+---
+layout: page
+title: "News &amp; Insights — EdelSenz"
+description: "EdelSenz news, food-innovation insights and our weekly newsletter — subscribe to get each issue in your inbox."
+---
+<section class="subhero">
+  <div class="sh-bg dg4"></div>
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; News</div>
+    <div class="sh-ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h8M8 17h5"/></svg></div>
+    <span class="eyebrow">News &amp; newsletter</span>
+    <h1>News &amp; Insights</h1>
+    <p class="sh-tag">Food innovation, ingredient trends and EdelSenz news — published every week. Subscribe to get each issue in your inbox.</p>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="wrap">
+    <div class="nl-inner reveal">
+      <div class="nl-copy">
+        <span class="eyebrow">Subscribe</span>
+        <h2 style="margin:8px 0 12px">Our weekly newsletter</h2>
+        <p style="color:#4c5147;font-size:1.05rem">Join our mailing list for a short, useful weekly read on what&rsquo;s moving in food, formulation and sourcing across Africa.</p>
+      </div>
+      <div class="nl-formwrap">
+        <!-- MAILERLITE: replace everything inside .nl-formwrap with your MailerLite embed code (see setup steps) -->
+        <form class="nl-form" action="#" onsubmit="return false">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <button type="submit" class="btn btn-olive"><span>Subscribe</span></button>
+        </form>
+        <p class="nl-note">Not yet connected &mdash; we&rsquo;ll link this to MailerLite before launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section tint">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="eyebrow">Latest issues</span><h2>From the newsletter</h2></div>
+    <div class="news-grid">
+      {% for post in site.posts %}
+      <article class="news-card reveal">
+        <span class="news-date">{{ post.date | date: "%-d %b %Y" }}</span>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.summary }}</p>
+        <a href="{{ post.url | relative_url }}" class="backlink">Read issue &rarr;</a>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="news-howto">New issues are added from your editor &mdash; they appear here automatically, newest first.</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--olive-bright)">Speak to our team</span>
+    <h2>Let&rsquo;s build something</h2>
+    <p>Tell us about your product idea, brand or sourcing need — and we&rsquo;ll take it from concept to counter.</p>
+    <a href="index.html#contact" class="btn btn-olive"><span>Start a project</span> <span class="arr">&rarr;</span></a>
+    <div style="margin-top:22px"><a href="index.html" class="backlink">&larr; Back to home</a></div>
+  </div>
+</section>

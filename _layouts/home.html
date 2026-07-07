@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+<div id="progress"></div>
+
+<!-- NAV -->
+<header id="site-header">
+  <nav class="nav">
+    <a href="#top" class="logo">
+      <img class="l-light" src="assets/logo-white.png" alt="EdelSenz">
+      <img class="l-dark" src="assets/logo-color.png" alt="EdelSenz">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#story">Story</a></li>
+      <li><a href="#divisions">Divisions</a></li>
+      <li><a href="capabilities.html">Capabilities</a></li>
+      <li><a href="#partnerships">Partnerships</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="#contact" class="btn btn-olive nav-cta"><span>Speak to our team</span></a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+{{ content }}
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo-white.png" alt="EdelSenz">
+        <p>{{ site.data.content.footer.blurb }}</p>
+        <div class="tagline">{{ site.data.content.footer.tagline }}</div>
+        <a class="foot-social" href="https://www.linkedin.com/company/107870141/" target="_blank" rel="noopener" aria-label="EdelSenz on LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.4c0-1.53-.03-3.5-2.13-3.5-2.13 0-2.46 1.66-2.46 3.38V23h-4V8z"/></svg></a>
+      </div>
+      <div class="foot-col"><h5>Explore</h5><ul>
+        <li><a href="#story">Our story</a></li><li><a href="#divisions">Divisions</a></li>
+        <li><a href="#people">Our people</a></li><li><a href="#tech">Technologies</a></li>
+        <li><a href="#partnerships">Partnerships</a></li></ul></div>
+      <div class="foot-col"><h5>Contact</h5><ul>
+        <li><a href="mailto:admin@edelsenz.co.za">admin@edelsenz.co.za</a></li>
+        <li><a href="#contact">Start a project</a></li>
+        <li><span class="badge-b">B-BBEE Level 1</span></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 EdelSenz (Pty) Ltd. All rights reserved.</span>
+      <span>Majority female-owned · B-BBEE Level 1 contributor</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

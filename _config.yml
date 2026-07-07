@@ -1,0 +1,2 @@
+title: EdelSenz
+exclude: [tools, node_modules, package.json, package-lock.json, .pages.yml, README-EDITING.md]

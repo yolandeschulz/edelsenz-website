@@ -1,0 +1,403 @@
+---
+layout: home
+venn: true
+title: "EdelSenz — Essential Solutions. Exceptional Results."
+description: "EdelSenz is a South African technical ingredient and innovation partner — connecting global & local sourcing, functional formulation and finished-product manufacturing into one integrated solution. 35+ years from idea to shelf."
+---
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-sweep"></div>
+  <canvas id="leafCanvas"></canvas>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-eyebrow"><img src="assets/mark-white.png" alt=""> {{ site.data.content.hero.eyebrow }}</span>
+      <h1>
+        <span class="ln"><span>{{ site.data.content.hero.line1 }}</span></span>
+        <span class="ln"><span class="acc">{{ site.data.content.hero.line2 }}</span></span>
+      </h1>
+      <p class="lead">{{ site.data.content.hero.lead }}</p>
+      <div class="hero-actions">
+        <a href="#divisions" class="btn btn-olive"><span>{{ site.data.content.hero.cta1 }}</span> <span class="arr">→</span></a>
+        <a href="#approach" class="btn btn-ghost"><span>{{ site.data.content.hero.cta2 }}</span></a>
+      </div>
+    </div>
+    <aside class="impact">
+      <div class="impact-row"><div class="num" data-count="35" data-suffix="+">0<span class="u">+</span></div><div class="lbl"><b>{{ site.data.content.hero.stat1_label }}</b><span>{{ site.data.content.hero.stat1_sub }}</span></div></div>
+      <div class="impact-row"><div class="num" data-count="6">0</div><div class="lbl"><b>{{ site.data.content.hero.stat2_label }}</b><span>{{ site.data.content.hero.stat2_sub }}</span></div></div>
+      <div class="impact-row"><div class="num" data-count="1">0</div><div class="lbl"><b>{{ site.data.content.hero.stat3_label }}</b><span>{{ site.data.content.hero.stat3_sub }}</span></div></div>
+    </aside>
+  </div>
+  <div class="scrollcue"><span>Scroll</span><span class="dot"></span></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee"><div class="mq-track" id="mq1">
+  <span>Global &amp; Local Sourcing</span><span>Herbs, Spices &amp; Seasonings</span><span>Milling &amp; Baking</span><span>Personal Care</span><span>Pantry &amp; Home</span><span>Food &amp; Beverage</span>
+  <span>Global &amp; Local Sourcing</span><span>Herbs, Spices &amp; Seasonings</span><span>Milling &amp; Baking</span><span>Personal Care</span><span>Pantry &amp; Home</span><span>Food &amp; Beverage</span>
+</div></div>
+
+<!-- APPROACH -->
+<section class="section leaf-accent cream-leaves tr" id="approach">
+  <div class="wrap">
+    <div class="venn-grid">
+      <div class="venn-stage reveal">
+        <svg viewBox="0 0 460 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Develop, Import and Manufacture overlapping to deliver Integrated Product Execution">
+          <defs>
+            <radialGradient id="gDev" cx="38%" cy="30%" r="78%">
+              <stop offset="0%" stop-color="#4d7c61"/><stop offset="55%" stop-color="#284d3c"/><stop offset="100%" stop-color="#1a382a"/>
+            </radialGradient>
+            <radialGradient id="gImp" cx="36%" cy="30%" r="80%">
+              <stop offset="0%" stop-color="#88aa6d"/><stop offset="55%" stop-color="#5e7d4f"/><stop offset="100%" stop-color="#46623a"/>
+            </radialGradient>
+            <radialGradient id="gMan" cx="40%" cy="28%" r="82%">
+              <stop offset="0%" stop-color="#cbdd86"/><stop offset="55%" stop-color="#9cb056"/><stop offset="100%" stop-color="#7c9243"/>
+            </radialGradient>
+            <filter id="gblur" x="-30%" y="-60%" width="160%" height="260%"><feGaussianBlur stdDeviation="11"/></filter>
+          </defs>
+          <ellipse cx="232" cy="374" rx="156" ry="20" fill="#16291f" opacity="0.16" filter="url(#gblur)"/>
+          <circle class="vc" cx="230" cy="140" r="124" fill="url(#gDev)"/>
+          <circle class="vc" cx="166" cy="255" r="124" fill="url(#gImp)"/>
+          <circle class="vc" cx="294" cy="255" r="124" fill="url(#gMan)"/>
+          <text class="vlabel" x="230" y="96" text-anchor="middle" fill="#fff" font-family="Forum,serif" font-size="23">Develop</text>
+          <text class="vlabel" x="120" y="298" text-anchor="middle" fill="#fff" font-family="Forum,serif" font-size="23">Import</text>
+          <text class="vlabel" x="340" y="298" text-anchor="middle" fill="#21321f" font-family="Forum,serif" font-size="23">Manufacture</text>
+          <g class="vcore">
+            <circle class="core-pulse" cx="230" cy="212" r="52" fill="#ffffff" fill-opacity="0.14"/>
+            <text x="230" y="206" text-anchor="middle" fill="#fff" font-family="Montserrat,sans-serif" font-size="13" font-weight="700">Integrated</text>
+            <text x="230" y="223" text-anchor="middle" fill="#fff" font-family="Montserrat,sans-serif" font-size="13" font-weight="700">Product</text>
+            <text x="230" y="240" text-anchor="middle" fill="#fff" font-family="Montserrat,sans-serif" font-size="13" font-weight="700">Execution</text>
+          </g>
+        </svg>
+      </div>
+      <div class="approach-copy reveal">
+        <span class="eyebrow">{{ site.data.content.approach.eyebrow }}</span>
+        <h2>{{ site.data.content.approach.h2a }} <span class="ac">{{ site.data.content.approach.h2b }}</span> {{ site.data.content.approach.h2c }}</h2>
+        <p>{{ site.data.content.approach.intro }}</p>
+        <ul class="pill-list">
+          <li><span class="tick">✓</span><span><strong>Develop</strong> — {{ site.data.content.approach.pill1 }}</span></li>
+          <li><span class="tick">✓</span><span><strong>Import</strong> — {{ site.data.content.approach.pill2 }}</span></li>
+          <li><span class="tick">✓</span><span><strong>Manufacture</strong> — {{ site.data.content.approach.pill3 }}</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flow reveal">
+      <div class="flow-track">
+        <div class="flow-line"></div>
+        <div class="flow-dot run" id="flowDot"></div>
+        <div class="flow-card">
+          <div class="num-badge">01</div><span class="step">Upstream</span><h3>{{ site.data.content.approach.flow1_title }}</h3>
+          <p>{{ site.data.content.approach.flow1_text }}</p>
+        </div>
+        <div class="flow-card">
+          <div class="num-badge">02</div><span class="step">Midstream</span><h3>{{ site.data.content.approach.flow2_title }}</h3>
+          <p>{{ site.data.content.approach.flow2_text }}</p>
+        </div>
+        <div class="flow-card">
+          <div class="num-badge">03</div><span class="step">Finished</span><h3>{{ site.data.content.approach.flow3_title }}</h3>
+          <p>{{ site.data.content.approach.flow3_text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="section leaf-accent green-leaves tl" id="story">
+  <div class="atmos atmos--dark" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="story-grid">
+      <div class="story-media reveal">
+        <div class="ph-portrait">
+          <img src="assets/people/Yolande.JPG" alt="Yolande Schulz, Founder & CEO" onerror="this.remove()">
+          <span class="ph-initials">YS</span>
+          <span class="ph-tag"><b>Yolande Schulz</b><span>Managing Director</span></span>
+        </div>
+      </div>
+      <div class="story-copy reveal">
+        <span class="eyebrow">{{ site.data.content.story.eyebrow }}</span>
+        <h2>{{ site.data.content.story.h2a }} <span class="ac">{{ site.data.content.story.h2b }}</span> {{ site.data.content.story.h2c }}</h2>
+        <p>{{ site.data.content.story.p1 }}</p>
+        <p>{{ site.data.content.story.p2 }}</p>
+        <div class="name-meaning">
+          <div><b>Edel</b><span>{{ site.data.content.story.edel }}</span></div>
+          <div><b>Senz</b><span>{{ site.data.content.story.senz }}</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE BAND: Yolande -->
+<section class="quoteband" style="background-image:url('assets/people/making.jpg')">
+  <div class="qcard reveal">
+    <span class="qmark">&ldquo;</span>
+    <blockquote>{{ site.data.content.quote.text }}</blockquote>
+    <div class="qattr">{{ site.data.content.quote.name }}<span>{{ site.data.content.quote.role }}</span></div>
+  </div>
+</section>
+
+<!-- VISION / MISSION -->
+<section class="section vm-sec leaf-accent cream-leaves br" id="vision">
+  <div class="atmos" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:40px">
+      <span class="eyebrow">{{ site.data.content.vm.eyebrow }}</span>
+      <h2>{{ site.data.content.vm.h2a }} <span class="ac">{{ site.data.content.vm.h2b }}</span></h2>
+    </div>
+    <div class="vm-grid">
+      <div class="vm-card reveal"><span class="vm-k">Vision</span><p>{{ site.data.content.vm.vision }}</p></div>
+      <div class="vm-card reveal"><span class="vm-k">Mission</span><p>{{ site.data.content.vm.mission }}</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section leaf-accent green-leaves bl" id="values">
+  <div class="atmos" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.data.content.values.eyebrow }}</span>
+      <h2>{{ site.data.content.values.h2a }} <span class="ac">{{ site.data.content.values.h2b }}</span></h2>
+      <p>{{ site.data.content.values.intro }}</p>
+    </div>
+    <div class="val-grid">
+      <div class="val-card reveal"><span class="val-n">01</span><h4>{{ site.data.content.values.v1_title }}</h4><p>{{ site.data.content.values.v1_text }}</p></div>
+      <div class="val-card reveal"><span class="val-n">02</span><h4>{{ site.data.content.values.v2_title }}</h4><p>{{ site.data.content.values.v2_text }}</p></div>
+      <div class="val-card reveal"><span class="val-n">03</span><h4>{{ site.data.content.values.v3_title }}</h4><p>{{ site.data.content.values.v3_text }}</p></div>
+      <div class="val-card reveal"><span class="val-n">04</span><h4>{{ site.data.content.values.v4_title }}</h4><p>{{ site.data.content.values.v4_text }}</p></div>
+      <div class="val-card reveal"><span class="val-n">05</span><h4>{{ site.data.content.values.v5_title }}</h4><p>{{ site.data.content.values.v5_text }}</p></div>
+      <div class="val-card reveal"><span class="val-n">06</span><h4>{{ site.data.content.values.v6_title }}</h4><p>{{ site.data.content.values.v6_text }}</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- VIDEO BAND -->
+<section class="videoband">
+  <video autoplay muted loop playsinline poster="assets/video/montage-poster-v2.jpg" aria-hidden="true">
+    <source src="assets/video/edelsenz-montage-v2.mp4" type="video/mp4">
+  </video>
+  <div class="pb-inner reveal">
+    <span class="eyebrow">{{ site.data.content.video.eyebrow }}</span>
+    <h2>{{ site.data.content.video.h2 }}</h2>
+    <p class="sub">{{ site.data.content.video.sub }}</p>
+    <a href="#divisions" class="btn btn-olive"><span>Explore our divisions</span> <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<!-- DIVISIONS -->
+<section class="section leaf-accent cream-leaves tr" id="divisions">
+  <div class="atmos" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.data.content.divisions.eyebrow }}</span>
+      <h2>{{ site.data.content.divisions.h2a }} <span class="ac">{{ site.data.content.divisions.h2b }}</span> {{ site.data.content.divisions.h2c }}</h2>
+      <p>{{ site.data.content.divisions.intro }}</p>
+    </div>
+    <div class="div-grid">
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg1"></div><span class="idx">01</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18"/></svg></span></div>
+        <div class="div-body"><h3>Global &amp; Local Sourcing</h3><p>{{ site.data.content.divisions.d1_desc }}</p><span class="tag">Speciality ingredients</span><a class="div-link" href="division-global-local-sourcing.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg2"></div><span class="idx">02</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M5 11l2-6h10l2 6M5 11h14M5 11l1 8h12l1-8M9 11v8M15 11v8"/></svg></span></div>
+        <div class="div-body"><h3>Herbs, Spices &amp; Seasonings</h3><p>{{ site.data.content.divisions.d2_desc }}</p><span class="tag">Sole distributor of Akay</span><a class="div-link" href="division-herbs-spices-seasonings.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg3"></div><span class="idx">03</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v6M8 5l4 4 4-4M4 13c4-3 12-3 16 0M5 13l1.5 7h11L19 13"/></svg></span></div>
+        <div class="div-body"><h3>Milling &amp; Baking</h3><p>{{ site.data.content.divisions.d3_desc }}</p><span class="tag">Milling &amp; fortification</span><a class="div-link" href="division-milling-baking.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg4"></div><span class="idx">04</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M9 3h6v4a3 3 0 01-6 0zM8 21h8M10 10v6a2 2 0 004 0v-6"/></svg></span></div>
+        <div class="div-body"><h3>Personal Care</h3><p>{{ site.data.content.divisions.d4_desc }}</p><span class="tag">Skin, body &amp; home</span><a class="div-link" href="division-personal-care.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg5"></div><span class="idx">05</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7zM9 8V6a3 3 0 016 0v2M9 12h6"/></svg></span></div>
+        <div class="div-body"><h3>Pantry &amp; Home</h3><p>{{ site.data.content.divisions.d5_desc }}</p><span class="tag">Farm Kitchen Range</span><a class="div-link" href="division-pantry-home.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+      <article class="div-card tilt reveal">
+        <div class="div-head"><div class="g dg6"></div><span class="idx">06</span>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M8 2h8M9 2v4l-3 13a2 2 0 002 3h8a2 2 0 002-3L15 6V2M7.5 13h9"/></svg></span></div>
+        <div class="div-body"><h3>Food &amp; Beverage</h3><p>{{ site.data.content.divisions.d6_desc }}</p><span class="tag">Functional beverages</span><a class="div-link" href="division-food-beverage.html">Explore <span class="arr">&rarr;</span></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CAPABILITIES -->
+<section class="section leaf-accent green-leaves bl" id="capabilities">
+  <div class="atmos atmos--dark" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.data.content.cap.eyebrow }}</span>
+      <h2>{{ site.data.content.cap.h2 }}</h2>
+      <p>{{ site.data.content.cap.intro }}</p>
+    </div>
+    <div class="cap-grid">
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 3a5 5 0 015 5c0 3-3 4-3 7H10c0-3-3-4-3-7a5 5 0 015-5zM9 19h6M10 22h4"/></svg></div><h4>{{ site.data.content.cap.c1_title }}</h4><p>{{ site.data.content.cap.c1_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M4 20c2-5 14-5 16 0M12 4v5M9 9h6M8 13h8"/></svg></div><h4>{{ site.data.content.cap.c2_title }}</h4><p>{{ site.data.content.cap.c2_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M9 3v6l-4 9a2 2 0 002 3h10a2 2 0 002-3l-4-9V3M8 3h8M6.5 15h11"/></svg></div><h4>{{ site.data.content.cap.c3_title }}</h4><p>{{ site.data.content.cap.c3_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 20c1-4 11-4 12 0M14 19c.5-2 6-2 7 1"/></svg></div><h4>{{ site.data.content.cap.c4_title }}</h4><p>{{ site.data.content.cap.c4_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7zM9 12l2 2 4-4"/></svg></div><h4>{{ site.data.content.cap.c5_title }}</h4><p>{{ site.data.content.cap.c5_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM7 18a2 2 0 100-4 2 2 0 000 4zM18 18a2 2 0 100-4 2 2 0 000 4z"/></svg></div><h4>{{ site.data.content.cap.c6_title }}</h4><p>{{ site.data.content.cap.c6_text }}</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR PEOPLE -->
+<section class="section leaf-accent cream-leaves bl" id="people">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.data.content.people.eyebrow }}</span>
+      <h2>{{ site.data.content.people.h2a }} <span class="ac">{{ site.data.content.people.h2b }}</span></h2>
+      <p>{{ site.data.content.people.intro }}</p>
+    </div>
+    <div class="team-grid">
+      <figure class="team-card reveal">
+        <div class="ph-portrait">
+          <img src="assets/people/Yolande.JPG" alt="Yolande Schulz" onerror="this.remove()">
+          <span class="ph-initials">YS</span>
+        </div>
+        <figcaption><b>Yolande Schulz</b><span>Managing Director</span><button class="bio-btn" data-person="yolande">Read bio <span class="arr">&rarr;</span></button></figcaption>
+      </figure>
+      <figure class="team-card reveal">
+        <div class="ph-portrait">
+          <img src="assets/people/ralf.jpg" alt="Ralf Schulz" onerror="this.remove()">
+          <span class="ph-initials">RS</span>
+        </div>
+        <figcaption><b>Ralf Schulz</b><span>Director</span><button class="bio-btn" data-person="ralf">Read bio <span class="arr">&rarr;</span></button></figcaption>
+      </figure>
+      <figure class="team-card reveal">
+        <div class="ph-portrait">
+          <img src="assets/people/Shaney.jpg" alt="Shaney Hansen" onerror="this.remove()">
+          <span class="ph-initials">SH</span>
+        </div>
+        <figcaption><b>Shaney Hansen</b><span>Development Chef · Pantry &amp; Home</span><button class="bio-btn" data-person="shaney">Read bio <span class="arr">&rarr;</span></button></figcaption>
+      </figure>
+      <figure class="team-card reveal">
+        <div class="ph-portrait">
+          <img src="assets/people/stephanie.jpg" alt="Stephanie de la Rey" onerror="this.remove()">
+          <span class="ph-initials">SR</span>
+        </div>
+        <figcaption><b>Stephanie de la Rey</b><span>Head of Herbs, Spices &amp; Seasonings</span><button class="bio-btn" data-person="stephanie">Read bio <span class="arr">&rarr;</span></button></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTO BAND: communities -->
+<section class="photoband" style="background-image:url('assets/people/community-2.jpg')">
+  <div class="pb-inner reveal">
+    <span class="eyebrow">People &amp; communities</span>
+    <h2>Solutions for a healthier future</h2>
+    <p class="sub">Science-backed nutrition, ethical sourcing and real local impact — rooted in the farms, kitchens and partners we work with.</p>
+    <a href="#approach" class="btn btn-olive"><span>How we work</span> <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+
+
+<!-- PARTNERSHIPS -->
+<section class="section leaf-accent cream-leaves br" id="partnerships">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Strategic partnerships &amp; JVs</span>
+      <h2>We don&rsquo;t go it alone</h2>
+      <p>Joint ventures and trusted partners extend our reach across manufacturing, blending, regulatory support and community impact.</p>
+    </div>
+    <div class="part-grid">
+      <div class="part-card feature reveal"><span class="feat-k">Exclusive partnership</span><h4>Sole Distributor of Akay</h4><p>EdelSenz is the sole distributor of Akay&rsquo;s world-class spice extracts, oleoresins and natural seasoning solutions — bringing global flavour technology to local manufacturers.</p></div>
+      <div class="part-card reveal"><h4>Godrich</h4><p>Manufacturing &amp; product partnership across bakery and finished goods.</p></div>
+      <div class="part-card reveal"><h4>Optimal Blending Solutions</h4><p>Specialist blending capacity for premixes and dry formulations.</p></div>
+      <div class="part-card reveal"><h4>Regulatory Support</h4><p>Labelling, nutritional and compliance expertise aligned to SA legislation.</p></div>
+      <div class="part-card reveal"><h4>CSR &amp; Community Impact</h4><p>Skills development, job creation and ethical, sustainable sourcing.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- COMMUNITY IMPACT -->
+<section class="section leaf-accent green-leaves tr" id="impact">
+  <div class="atmos atmos--dark" aria-hidden="true"><span class="ray"></span><span class="glow g1"></span><span class="glow g2"></span></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.data.content.impact.eyebrow }}</span>
+      <h2>{{ site.data.content.impact.h2 }}</h2>
+      <p>{{ site.data.content.impact.intro }}</p>
+    </div>
+    <div class="cap-grid">
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 10c0-3 3-5 7-5M19 10c0-3-3-5-7-5M5 10c0 4 3 6 7 6M19 10c0 4-3 6-7 6"/></svg></div><h4>{{ site.data.content.impact.i1_title }}</h4><p>{{ site.data.content.impact.i1_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><h4>{{ site.data.content.impact.i2_title }}</h4><p>{{ site.data.content.impact.i2_text }}</p></div>
+      <div class="cap-item reveal"><div class="ci"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 15-5 16 0"/></svg></div><h4>{{ site.data.content.impact.i3_title }}</h4><p>{{ site.data.content.impact.i3_text }}</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section nl-band leaf-accent cream-leaves bl" id="newsletter">
+  <div class="wrap reveal">
+    <div class="nl-inner">
+      <div class="nl-copy">
+        <span class="eyebrow">{{ site.data.content.newsletter.eyebrow }}</span>
+        <h2>{{ site.data.content.newsletter.h2 }}</h2>
+        <p>Food innovation, ingredient trends and EdelSenz news — in your inbox every week. Read the latest on our <a href="news.html">News page</a>.</p>
+      </div>
+      <div class="nl-formwrap">
+        <!-- MAILERLITE: replace everything inside .nl-formwrap with your MailerLite embed code (see setup steps) -->
+        <form class="nl-form" action="#" onsubmit="return false">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <button type="submit" class="btn btn-olive"><span>Subscribe</span></button>
+        </form>
+        <p class="nl-note">Not yet connected &mdash; we&rsquo;ll link this to MailerLite before launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+
+<!-- CONTACT -->
+<section class="section" id="contact" style="background:linear-gradient(120deg,rgba(22,41,31,.9),rgba(22,41,31,.74)),url('assets/people/contact-bg.jpg');background-size:cover;background-position:center 22%">
+  <div class="wrap">
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <span class="eyebrow">{{ site.data.content.contact.eyebrow }}</span>
+        <h2>{{ site.data.content.contact.h2 }}</h2>
+        <p class="lead">{{ site.data.content.contact.lead }}</p>
+        <ul class="contact-list">
+          <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg></span><span><span class="lbl">Email</span><br><span class="val">{{ site.data.content.contact.email }}</span></span></li>
+        </ul>
+      </div>
+      <form class="contact-form reveal" onsubmit="return false">
+        <div class="field"><label>Name</label><input type="text" placeholder="Your name"></div>
+        <div class="field"><label>Email</label><input type="email" placeholder="you@company.com"></div>
+        <div class="field"><label>I&rsquo;m interested in</label>
+          <select><option>Global &amp; Local Sourcing</option><option>Herbs, Spices &amp; Seasonings</option><option>Milling &amp; Baking</option><option>Personal Care</option><option>Pantry &amp; Home</option><option>Food &amp; Beverage</option><option>Something else</option></select>
+        </div>
+        <div class="field"><label>Message</label><textarea rows="4" placeholder="Tell us about your project…"></textarea></div>
+        <button class="btn btn-olive"><span>Send enquiry</span> <span class="arr">→</span></button>
+        <p class="form-note">Draft form — not yet connected. We&rsquo;ll wire this to your inbox before launch.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="bio-modal" id="bioModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="bio-overlay"></div>
+  <div class="bio-box"><button class="bio-close" aria-label="Close">&times;</button><div class="bio-content" id="bioContent"></div></div>
+</div>
+<div class="bio-store" hidden>
+<div id="bio-yolande"><div class="bio-head"><div class="bio-av"><img src="assets/people/Yolande.JPG" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'YS'}))"></div><div><h3>Yolande Schulz</h3><span class="bio-role">Managing Director</span></div></div><p>Yolande founded EdelSenz after more than 18 years in senior corporate executive and regional leadership roles spanning Europe, the Middle East and Africa. That experience taught her what it takes to operate at a global standard while staying locally relevant &mdash; delivering fit-for-purpose solutions for the markets EdelSenz serves.</p><p>She leads the business with one ambition: to make a real difference in food in Africa through science-backed, ethically sourced and competitively priced ingredient and product solutions.</p></div>
+<div id="bio-ralf"><div class="bio-head"><div class="bio-av"><img src="assets/people/ralf.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'RS'}))"></div><div><h3>Ralf Schulz</h3><span class="bio-role">Director</span></div></div><p>Ralf is a Director and shareholder of EdelSenz, providing strategic, commercial and governance oversight to the group. He helps steer the company&rsquo;s growth, its investment decisions and its long-term partnerships.</p><p><em>Full bio to be confirmed &mdash; send Yolande&rsquo;s preferred wording and we&rsquo;ll drop it in.</em></p></div>
+<div id="bio-shaney"><div class="bio-head"><div class="bio-av"><img src="assets/people/Shaney.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'SH'}))"></div><div><h3>Shaney Hansen</h3><span class="bio-role">Development Chef &middot; Pantry &amp; Home</span></div></div><p>Shaney is EdelSenz&rsquo;s Development Chef for the Pantry &amp; Home division and leads artisanal, small-batch manufacturing. She turns seasonal, farm-fresh ingredients into shelf-ready ranges &mdash; bridging culinary craft with scalable, repeatable production.</p><p><em>Full bio to be confirmed &mdash; send the wording you&rsquo;d like and we&rsquo;ll drop it in.</em></p></div>
+<div id="bio-stephanie"><div class="bio-head"><div class="bio-av">SR</div><div><h3>Stephanie de la Rey</h3><span class="bio-role">Head of Herbs, Spices &amp; Seasonings</span></div></div><p>Stephanie leads the Herbs, Spices &amp; Seasonings division, driving technical seasoning and flavour development and managing EdelSenz&rsquo;s sole-distributor partnership with Akay. She combines deep ingredient knowledge with hands-on application work.</p><p><em>Full bio to be confirmed &mdash; send the wording you&rsquo;d like and we&rsquo;ll drop it in.</em></p></div>
+</div>
+
+<!-- FOOTER -->
