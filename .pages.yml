@@ -1,0 +1,429 @@
+# Pages CMS configuration — defines the no-code editing forms.
+media:
+  input: assets
+  output: /assets
+content:
+- name: homepage
+  label: Homepage text
+  type: file
+  path: _data/content.yml
+  fields:
+  - name: hero
+    label: Hero (top of page)
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: line1
+      label: Line1
+      type: string
+    - name: line2
+      label: Line2
+      type: string
+    - name: lead
+      label: Lead
+      type: text
+    - name: cta1
+      label: Cta1
+      type: string
+    - name: cta2
+      label: Cta2
+      type: string
+    - name: stat1_label
+      label: Stat1 label
+      type: string
+    - name: stat1_sub
+      label: Stat1 sub
+      type: string
+    - name: stat2_label
+      label: Stat2 label
+      type: string
+    - name: stat2_sub
+      label: Stat2 sub
+      type: string
+    - name: stat3_label
+      label: Stat3 label
+      type: string
+    - name: stat3_sub
+      label: Stat3 sub
+      type: string
+  - name: approach
+    label: ‘From idea to shelf’ section
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: h2c
+      label: H2c
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: pill1
+      label: Pill1
+      type: string
+    - name: pill2
+      label: Pill2
+      type: text
+    - name: pill3
+      label: Pill3
+      type: string
+    - name: flow1_title
+      label: Flow1 title
+      type: string
+    - name: flow1_text
+      label: Flow1 text
+      type: text
+    - name: flow2_title
+      label: Flow2 title
+      type: string
+    - name: flow2_text
+      label: Flow2 text
+      type: text
+    - name: flow3_title
+      label: Flow3 title
+      type: string
+    - name: flow3_text
+      label: Flow3 text
+      type: text
+  - name: story
+    label: Our story
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: h2c
+      label: H2c
+      type: string
+    - name: p1
+      label: P1
+      type: text
+    - name: p2
+      label: P2
+      type: text
+    - name: edel
+      label: Edel
+      type: text
+    - name: senz
+      label: Senz
+      type: text
+  - name: quote
+    label: Yolande quote band
+    type: object
+    fields:
+    - name: text
+      label: Text
+      type: text
+    - name: attr
+      label: Attr
+      type: string
+    - name: name
+      label: Name
+      type: string
+    - name: role
+      label: Role
+      type: string
+  - name: vm
+    label: Vision & mission
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: vision
+      label: Vision
+      type: text
+    - name: mission
+      label: Mission
+      type: text
+  - name: values
+    label: Core values
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: v1_title
+      label: V1 title
+      type: string
+    - name: v1_text
+      label: V1 text
+      type: text
+    - name: v2_title
+      label: V2 title
+      type: string
+    - name: v2_text
+      label: V2 text
+      type: text
+    - name: v3_title
+      label: V3 title
+      type: string
+    - name: v3_text
+      label: V3 text
+      type: text
+    - name: v4_title
+      label: V4 title
+      type: string
+    - name: v4_text
+      label: V4 text
+      type: text
+    - name: v5_title
+      label: V5 title
+      type: string
+    - name: v5_text
+      label: V5 text
+      type: text
+    - name: v6_title
+      label: V6 title
+      type: string
+    - name: v6_text
+      label: V6 text
+      type: text
+  - name: video
+    label: Video band
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: sub
+      label: Sub
+      type: text
+  - name: divisions
+    label: Divisions (home cards)
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: h2c
+      label: H2c
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: d1_desc
+      label: D1 desc
+      type: text
+    - name: d2_desc
+      label: D2 desc
+      type: text
+    - name: d3_desc
+      label: D3 desc
+      type: text
+    - name: d4_desc
+      label: D4 desc
+      type: text
+    - name: d5_desc
+      label: D5 desc
+      type: text
+    - name: d6_desc
+      label: D6 desc
+      type: text
+  - name: cap
+    label: Shared capabilities
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: c1_title
+      label: C1 title
+      type: string
+    - name: c1_text
+      label: C1 text
+      type: string
+    - name: c2_title
+      label: C2 title
+      type: string
+    - name: c2_text
+      label: C2 text
+      type: string
+    - name: c3_title
+      label: C3 title
+      type: string
+    - name: c3_text
+      label: C3 text
+      type: string
+    - name: c4_title
+      label: C4 title
+      type: string
+    - name: c4_text
+      label: C4 text
+      type: string
+    - name: c5_title
+      label: C5 title
+      type: string
+    - name: c5_text
+      label: C5 text
+      type: string
+    - name: c6_title
+      label: C6 title
+      type: string
+    - name: c6_text
+      label: C6 text
+      type: string
+  - name: people
+    label: Our people
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: h2a
+      label: H2a
+      type: string
+    - name: h2b
+      label: H2b
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+  - name: impact
+    label: Community impact
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: i1_title
+      label: I1 title
+      type: string
+    - name: i1_text
+      label: I1 text
+      type: text
+    - name: i2_title
+      label: I2 title
+      type: string
+    - name: i2_text
+      label: I2 text
+      type: text
+    - name: i3_title
+      label: I3 title
+      type: string
+    - name: i3_text
+      label: I3 text
+      type: text
+  - name: newsletter
+    label: Newsletter band
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: h2
+      label: H2
+      type: string
+    - name: lead
+      label: Lead
+      type: text
+    - name: email
+      label: Email
+      type: string
+  - name: footer
+    label: Footer
+    type: object
+    fields:
+    - name: blurb
+      label: Blurb
+      type: text
+    - name: tagline
+      label: Tagline
+      type: string
+- name: news
+  label: News / newsletter issues
+  type: collection
+  path: _posts
+  filename: '{year}-{month}-{day}-{fields.title}.md'
+  fields:
+  - name: title
+    label: Issue title
+    type: string
+  - name: date
+    label: Date
+    type: date
+  - name: summary
+    label: Short summary (shown on the News page)
+    type: text
+  - name: body
+    label: Full issue text
+    type: rich-text
