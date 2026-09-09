@@ -1,2 +1,3 @@
 title: EdelSenz
+url: "https://edelsenz.com"
 exclude: [tools, node_modules, package.json, package-lock.json, .pages.yml, README-EDITING.md]

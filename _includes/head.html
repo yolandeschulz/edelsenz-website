@@ -1,10 +1,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title }}</title>
-<meta name="description" content="{{ page.description }}">
+<meta name="description" content="{{ page.description | default: page.summary }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="icon" href="assets/mark-green.png">
+
+<!-- Open Graph / Twitter — social + AI-assistant link previews -->
+<meta property="og:site_name" content="EdelSenz">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:locale" content="en_ZA">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description | default: page.summary }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/logo-color.png' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description | default: page.summary }}">
+<meta name="twitter:image" content="{{ '/assets/logo-color.png' | absolute_url }}">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <noscript><style>.reveal{opacity:1!important;transform:none!important}{% if page.venn %}.venn-stage circle.vc{opacity:.85!important;transform:none!important}.venn-stage .vlabel,.venn-stage .vcore{opacity:1!important}{% endif %}</style></noscript>
+
+<!-- Organization schema — helps AI assistants and search engines identify EdelSenz as an entity -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "EdelSenz",
+  "legalName": "EdelSenz (Pty) Ltd",
+  "url": "https://edelsenz.com/",
+  "logo": "https://edelsenz.com/assets/logo-color.png",
+  "description": "{{ site.data.content.footer.blurb }}",
+  "email": "mailto:{{ site.data.content.contact.email }}",
+  "founder": {
+    "@type": "Person",
+    "name": "Yolande Schulz"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/107870141/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "ZA"
+  }
+}
+</script>
