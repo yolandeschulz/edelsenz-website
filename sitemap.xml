@@ -3,15 +3,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ "/" | absolute_url }}</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>{{ "/capabilities.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>{{ "/news.html" | absolute_url }}</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>{{ "/division-global-local-sourcing.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>{{ "/division-herbs-spices-seasonings.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>{{ "/division-milling-baking.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>{{ "/division-personal-care.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>{{ "/division-pantry-home.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>{{ "/division-food-beverage.html" | absolute_url }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  {% for post in site.posts %}
-  <url><loc>{{ post.url | absolute_url }}</loc><lastmod>{{ post.date | date_to_xmlschema }}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  {% endfor %}
+  <url><loc>{{ "/capabilities.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>{{ "/partnerships.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/news.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>{{ "/division-global-local-sourcing.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/division-herbs-spices-seasonings.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/division-milling-baking.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/division-personal-care.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/division-pantry-home.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/division-food-beverage.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>{{ "/privacy-policy.html" | absolute_url | replace: '.html', '' }}</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>
