@@ -23,12 +23,13 @@ description: "EdelSenz news, food-innovation insights and our weekly newsletter 
         <p style="color:#4c5147;font-size:1.05rem">Join our mailing list for a short, useful weekly read on what&rsquo;s moving in food, formulation and sourcing across Africa.</p>
       </div>
       <div class="nl-formwrap">
-        <!-- MAILERLITE: replace everything inside .nl-formwrap with your MailerLite embed code (see setup steps) -->
-        <form class="nl-form" action="#" onsubmit="return false">
-          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+        <form class="nl-form" action="https://assets.mailerlite.com/jsonp/2582714/forms/196146314488055158/subscribe" method="post" data-mailerlite>
+          <div class="hp-field"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+          <input type="email" name="fields[email]" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="ml-submit" value="1">
+          <input type="hidden" name="anticsrf" value="true">
           <button type="submit" class="btn btn-olive"><span>Subscribe</span></button>
         </form>
-        <p class="nl-note">Not yet connected &mdash; we&rsquo;ll link this to MailerLite before launch.</p>
       </div>
     </div>
   </div>
@@ -36,18 +37,15 @@ description: "EdelSenz news, food-innovation insights and our weekly newsletter 
 
 <section class="page-section tint">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Latest issues</span><h2>From the newsletter</h2></div>
-    <div class="news-grid">
-      {% for post in site.posts %}
-      <article class="news-card reveal">
-        <span class="news-date">{{ post.date | date: "%-d %b %Y" }}</span>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.summary }}</p>
-        <a href="{{ post.url | relative_url }}" class="backlink">Read issue &rarr;</a>
-      </article>
-      {% endfor %}
+    <div class="section-head reveal"><span class="eyebrow">From LinkedIn</span><h2>Latest from LinkedIn</h2><p>Product news, ingredient trends and industry thinking from the EdelSenz team. Follow us on LinkedIn for the latest.</p></div>
+    <div class="li-featured reveal" style="margin:0 auto 34px">
+      <p style="font-family:'Montserrat',sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#6b7d2e;margin:0 0 16px;text-align:center">Featured on LinkedIn</p>
+      <div style="display:flex;flex-wrap:wrap;gap:22px;justify-content:center">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7442293241485373440" title="EdelSenz on LinkedIn — Africa Food Show advisory board" height="620" style="flex:1 1 440px;max-width:520px;border:0;border-radius:14px;background:#fff;box-shadow:0 6px 24px rgba(0,0,0,.08)" allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7442079941556588544" title="EdelSenz on LinkedIn — appointment announcement" height="620" style="flex:1 1 440px;max-width:520px;border:0;border-radius:14px;background:#fff;box-shadow:0 6px 24px rgba(0,0,0,.08)" allowfullscreen loading="lazy"></iframe>
+      </div>
     </div>
-    <p class="news-howto">New issues are added from your editor &mdash; they appear here automatically, newest first.</p>
+    <div style="margin-top:22px"><a href="https://www.linkedin.com/company/107870141/" target="_blank" rel="noopener" class="btn btn-olive"><span>Follow EdelSenz on LinkedIn</span> <span class="arr">&rarr;</span></a></div>
   </div>
 </section>
 
@@ -60,3 +58,5 @@ description: "EdelSenz news, food-innovation insights and our weekly newsletter 
     <div style="margin-top:22px"><a href="index.html" class="backlink">&larr; Back to home</a></div>
   </div>
 </section>
+
+<script src="assets/form.js"></script>
